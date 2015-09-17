@@ -18,5 +18,7 @@ for i in range(0,N-1,1) :
             lista[j] = temp 
 # imprimir a lista original em ordem crescente			
 print("lista crescente", lista)
+print("lista dos cinco menores", lista[0:5])
+print("lista dos cinco maiores", lista[N-5:N])
 
 
