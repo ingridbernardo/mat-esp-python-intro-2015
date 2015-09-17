@@ -2,6 +2,8 @@
 N = 20
 # exposicao dos numero da lista
 lista = [11, 18, 3, 1, 16, 12, 6, 19, 5, 0, 14, 4, 17, 9, 13, 7, 10, 15, 2, 8]
+# imprimir a lista no formato original 
+print("lista original", lista)
 # de quanto em quanto sera organizado a lista
 for i in range(0,N-1,1) :
 # FOR IN RANGE e um comando que gera a lista 
@@ -14,4 +16,7 @@ for i in range(0,N-1,1) :
             lista[i] = lista [j]
 # em seguida, podemos associar o elemento da lista j a variavel temp, pois trocamos de lugar a variavel i e a variavel j
             lista[j] = temp 
-print(lista)
+# imprimir a lista original em ordem crescente			
+print("lista crescente", lista)
+
+
