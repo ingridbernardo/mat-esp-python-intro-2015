@@ -4,6 +4,15 @@ N = 20
 lista = [11, 18, 3, 1, 16, 12, 6, 19, 5, 0, 14, 4, 17, 9, 13, 7, 10, 15, 2, 8]
 # imprimir a lista no formato original 
 print("lista original", lista)
+import matplotlib.pyplot as plt
+x = range(0,N-1,1)
+lista
+plt.figure()
+plt.plot(x,lista,'ok')
+plt.show()
+plt.savefig("fig/bubble-inicio.png")
+plt.close()
+print("bubble-inicio.png")
 # de quanto em quanto sera organizado a lista
 for i in range(0,N-1,1) :
 # FOR IN RANGE e um comando que gera a lista 
