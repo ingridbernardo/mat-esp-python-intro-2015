@@ -9,9 +9,9 @@ x = range(0,N,1)
 plt.figure()
 plt.plot(x,lista,'ok')
 plt.show()
-plt.savefig("fig/bubble-inicio.png")
+plt.savefig("fig/bubble-troca-1.png")
 plt.close()
-print("bubble-inicio.png")
+print("bubble-troca-1.png")
 # de quanto em quanto sera organizado a lista
 for i in range(0,N-1,1) :
 # FOR IN RANGE e um comando que gera a lista 
@@ -33,7 +33,7 @@ x = range(0,N,1)
 plt.figure()
 plt.plot(x,lista,'ok')
 plt.show()
-plt.savefig("fig/bubble-fim.png")
+plt.savefig("fig/bubble-troca-2.png")
 plt.close()
-print("bubble-fim.png")
+print("bubble-troca-2.png")
 
