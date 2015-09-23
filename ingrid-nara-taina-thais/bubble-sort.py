@@ -5,8 +5,7 @@ lista = [11, 18, 3, 1, 16, 12, 6, 19, 5, 0, 14, 4, 17, 9, 13, 7, 10, 15, 2, 8]
 # imprimir a lista no formato original 
 print("lista original", lista)
 import matplotlib.pyplot as plt
-x = range(0,N-1,1)
-lista
+x = range(0,N,1)
 plt.figure()
 plt.plot(x,lista,'ok')
 plt.show()
@@ -29,5 +28,12 @@ for i in range(0,N-1,1) :
 print("lista crescente", lista)
 print("lista dos cinco menores", lista[0:5])
 print("lista dos cinco maiores", lista[N-5:N])
-
+import matplotlib.pyplot as plt
+x = range(0,N,1)
+plt.figure()
+plt.plot(x,lista,'ok')
+plt.show()
+plt.savefig("fig/bubble-fim.png")
+plt.close()
+print("bubble-fim.png")
 
