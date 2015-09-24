@@ -20,10 +20,20 @@ plt.savefig("fig/bubble-inicio.png")
 # fechar a figura
 plt.close()
 mudanca = 1
+semtroca = 1
 # de quanto em quanto sera organizado a lista
-for i in range(0,N-1,1) :
+for i in range(0,N-1,1):
 # FOR IN RANGE e um comando que gera a lista 
-    for j in range(i+1,N,1) :
+    for j in range(i+1,N,1):
+        plt.figure()
+        plt.plot(x,'or')
+        plt.plot(lista,'ob')
+        plt.title("grafico com troca e sem troca")
+        plt.xlabel("x eh posicao")
+        plt.ylabel("y eh valor")
+        plt.savefig("fig/bubble-it-{}.png".format(semtroca))
+        plt.close() 
+        semtroca = semtroca + 1
 # comando que realiza a troca dos elementos da lista toda vez que i for maior do que j
         if lista[i] > lista[j]:
 # cria uma variavel que guarda os elementos da lista i, temporariamente, enquanto estao ocorrendo as trocas
